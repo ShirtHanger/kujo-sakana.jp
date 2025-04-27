@@ -1,0 +1,50 @@
+* Make a blog posts array in the script.JS file to simplify the HTML display
+
+Like this:
+
+const blogPosts = [
+  {
+    title: "Banded Archerfish",
+    image: "images/banded-archerfish.jpg",
+    caption: "https://animals.sandiegozoo.org/animals/banded-archer-fish",
+    paragraphs: [
+      "The Banded Archerfish is unique from other fish in the fact it shoots projectiles, hence its name.",
+      "Through eons of evolutionary changed, the archerfish have adapted to spew jet waves at a distance, usually 150cm (or 59 inches), but much larger fish can spit as far as 2-3 meters (6-9 feet).",
+      "They can even teach each other to shoot down moving targets! With an accuracy of 50%..."
+    ],
+    buttons: [
+      { text: "Like (591.7k)" },
+      { text: "Share (68.1k)" },
+      { text: "Source", links: [
+        "https://australian.museum/learn/animals/fishes/banded-archerfish-toxotes-jaculatrix/",
+        "https://www.cell.com/current-biology/fulltext/S0960-9822(06)01013-X"
+      ]}
+    ]
+  },
+  // next post here...
+];
+
+const blogPosts = [
+  {
+    title: "Axolotl",
+    images: [
+      "images/axolotl1.jpg",
+      "images/axolotl2.jpg"
+    ],
+    caption: "https://www.nationalgeographic.com/animals/article/axolotls-endangered-mexico",
+    paragraphs: [
+      "Axolotls are critically endangered amphibians famous for their ability to regenerate limbs.",
+      "Unlike most amphibians, axolotls retain their larval features throughout their entire lives, a trait called neoteny.",
+      "They are native only to Lake Xochimilco and Lake Chalco in Mexico City."
+    ],
+    buttons: [
+      { text: "Like (234.2k)" },
+      { text: "Share (42.7k)" },
+      { text: "Source", links: [
+        "https://www.axolotl.org/",
+        "https://nationalzoo.si.edu/animals/axolotl"
+      ]}
+    ]
+  },
+  // next post here...
+];

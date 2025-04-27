@@ -1,6 +1,6 @@
 header {
     text-align: center;
-    background: url('https://i.imgur.com/EinDRzz.jpeg');
+    background: url('images/taymaz-valley-japanese-waves.jpeg');
     background-size: cover;
     color: white;
   }
@@ -28,7 +28,7 @@ img {
   }
 
 body {
-    background: url("https://i.pinimg.com/originals/46/67/3f/46673f6cd869da3f851259881757ffbf.jpg");
+    background: url("images/dolphin-backdrop-Lili-Kudrilli.jpg");
     background-size: auto;
     background-repeat: repeat-y;
     background-position: center;
@@ -64,6 +64,16 @@ figcaption {
     border: 7px inset blue;
     border-radius: 20px;
   } 
+
+.blog-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-image-caption-container {
+  flex-direction: column;
+  
+}
 
 #works-cited {
   text-align: center;
