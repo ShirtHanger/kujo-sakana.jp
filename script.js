@@ -1,27 +1,40 @@
 alert("Welcome!")
 
-const blogButton = document.querySelector('button')
-const blogTitle = document.querySelector('h2')
-const blogImage = document.querySelector('img')
-const blogParagraph = document.querySelector('p')
+const blogButtons = document.querySelectorAll('button')
+const blogTitles = document.querySelectorAll('h2')
+const blogImages = document.querySelectorAll('img')
+const blogParagraphs = document.querySelectorAll('p')
 
-blogButton.addEventListener('click', async () => {
-      alert("Thank you for reading!")
-  }
-)
+for (blogButton of blogButtons) {
 
-blogTitle.addEventListener('click', async () => {
-      alert("You can read more on this at kujo-sakana.jp")
-  }
-)
-blogImage.addEventListener('click', async () => {
-      alert("Source for copyrighted images can be found below!")
-  }
-)
-blogParagraph.addEventListener('click', async () => {
-      alert("References can be found at the bottom of the page!")
-  }
-)
+  blogButton.addEventListener('click', () => {
+    alert("Thank you for reading!")
+  })
+
+}
+
+for (blogTitle of blogTitles) {
+
+  blogTitle.addEventListener('click', () => {
+    alert("You can read more on this at kujo-sakana.jp")
+  })
+
+} 
+
+for (blogImage of blogImages) {
+
+  blogImage.addEventListener('click', () => {
+    alert("Source for copyrighted images can be found below!")
+  })
+}
+
+for (blogParagraph of blogParagraphs) {
+
+  blogParagraph.addEventListener('click', () => {
+    alert("References can be found at the bottom of the page!")
+  })
+
+}
 
 // Depricated jQuery code
 
