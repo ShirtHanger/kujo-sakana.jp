@@ -9,6 +9,17 @@ a {
     color: blue;
   }
 
+.portfolio-link {
+  text-decoration: none;
+  color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-link:hover {
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 70px;
   color: yellow;
